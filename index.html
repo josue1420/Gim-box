@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>gimnacio</title>
+</head>
+<body>
+    <!--menu-->
+   <div class="contenedor-header">
+    <header>
+        <h1>A<span class="txtRojo">RES</span></h1>
+        <nav id="nav" class="responsive">
+            <a href="#inicio" onclick="seleccionar()">Inicio</a>
+            <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+            <a href="#servicios" onclick="seleccionar()">Servicios</a>
+            <a href="#galeria" onclick="seleccionar()">Galeria</a>
+            <a href="#contacto" onclick="seleccionar()">Contacto</a>
+        </nav>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="nav-responsive" id="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+   </div>
+
+   <!--inicio-->
+   <section id="inicio" class="inicio">
+    <div class="contenido-seccion">
+        <div class="info">
+            <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+            <p>Triunfar es mas facil de lo pensabas!!</p>
+            <a href="#nosotros" class="btn-mas">
+                <i class="fa-solid fa-circle-chevron-down"></i>
+            </a>
+        </div>
+        <div class="opciones">
+            <div class="opcion">
+                01: Cossfit
+            </div>
+            <div class="opcion">
+                02: Funciona
+            </div>
+            <div class="opcion">
+                03: GAP
+            </div>
+            <div class="opcion">
+                04: Boxeo
+            </div>
+            <div class="opcion">
+                05: Yoga
+            </div>
+            <div class="opcion">
+                06: Zumba
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!--nosotros-->
+   <section id="nosotros" class="nosotros">
+    <div class="fila">
+        <div class="col">
+            <img src="p2.jpg" alt="">
+        </div>
+        <div class="col">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    01
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENNCIA</span>
+                    <h2>NOSOTROS</h2>
+                </div>
+            </div>
+            <p class="p-especial">Descubre en ARES lo que no encontrarás en ningún otro lugar.</p>
+            <p>Adéntrate en el emocionante mundo del boxeo en Ares. Con un ambiente vibrante y entrenadores apasionados,
+                 nuestro gimnasio te brinda la oportunidad de alcanzar tu máximo potencial. Desde principiantes hasta expertos,
+                  todos son bienvenidos en nuestra comunidad de guerreros del ring. Descubre la fuerza interior, 
+                  la disciplina y la determinación que te llevarán a la cima.¡Ares Box, donde se forman campeones!</p>
+        </div>
+    </div>
+    <hr>
+    <div class="fila-nosotros">
+        <div class="coll">
+            <span class="frase">
+                <span class="txtRojo">ENTRENA </span>DIFERENTE
+            </span>
+            <h2>ENTRENA <span class="txtRojo">GRATIS </span>HOY!</h2>
+        </div>
+        <div class="col2">
+            <button class="pas">PASE LIBRE</button>
+        </div>
+    </div>
+   </section>
+
+   <!--servicio-->
+   <section id="servicios" class="servicios">
+    <div class="contenido-servicios">
+        <div class="fila">
+        <div class="col">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    02
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENNCIA</span>
+                    <h2>SERVICIOS</h2>
+                </div>
+            </div>
+            <p class="p-especial">Descubre por ti mismo los servicios de primera categoría en Ares.</p>
+            <p>Ares Box ofrece los mejores servicios para satisfacer tus necesidades de entrenamiento.
+                 Nuestro equipo de expertos entrenadores te guiará en cada paso del camino,
+                  brindándote atención personalizada. Con instalaciones de primera clase, 
+                  equipamiento de calidad y un ambiente motivador, Ares Box es el lugar perfecto para alcanzar tus metas y superar tus límites.
+                   ¡Experimenta el máximo rendimiento en Ares Box!</p>
+        </div>
+        <div class="col">
+            <img src="f5.jpg" alt="">
+        </div>
+    </div>
+    </div>
+    <div class="info-servicios">
+        <table>
+            <tr>
+                <td>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h3><span class="txtRojo">Clases</span> de Crossfit</h3>
+                    <p>CrossFit ofrece un entrenamiento completo que combina ejercicios de levantamiento de pesas, cardio, gimnasia y resistencia. Con el objetivo de mejorar la condición física general, CrossFit desarrolla fuerza, resistencia cardiovascular, flexibilidad, coordinación y agilidad.</p>
+                </td>
+                <td>
+                    <i class="fa-solid fa-person-walking"></i>
+                    <h3><span class="txtRojo">Clases</span> de Funcional</h3>
+                    <p>El entrenamiento funcional ofrece un enfoque de ejercicio que se centra en mejorar la capacidad y el rendimiento en actividades diarias y deportivas. Se basa en movimientos naturales del cuerpo, como empujar, jalar, levantar, agacharse y girar.</p>
+                </td>
+                <td>
+                    <i class="fa-solid fa-clock"></i>
+                    <h3><span class="txtRojo">Clases</span> de GAP</h3>
+                    <p>GAP (Glúteos, Abdominales y Piernas) ofrece un entrenamiento enfocado en fortalecer y tonificar estas áreas específicas del cuerpo. Mediante una variedad de ejercicios como sentadillas, estocadas y abdominales, se busca mejorar la fuerza, tonificar los músculos y contribuir a una mejor postura y equilibrio.</p>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <i class="fa-solid fa-mitten"></i>
+                    <h3><span class="txtRojo">Clases</span> de Boxeo</h3>
+                    <p>
+                        El boxeo es un deporte de combate que ofrece una amplia variedad de beneficios tanto físicos como mentales. Desde el punto de vista físico, el boxeo es una excelente forma de mejorar la fuerza, la resistencia, la coordinación y el equilibrio. </P>
+                </td>
+                <td>
+                    <i class="fa-solid fa-heart"></i>
+                    <h3><span class="txtRojo">Clases</span> de Yoga</h3>
+                    <p>El yoga ofrece una amplia gama de beneficios para el cuerpo y la mente. Ayuda a mejorar la flexibilidad, la fuerza y el equilibrio. Promueve la relajación, reduce el estrés y aumenta la conciencia y el enfoque mental.</p>
+                </td>
+                <td>
+                    <i class="fa-solid fa-music"></i>
+                    <h3><span class="txtRojo">Clases</span> de Zumba</h3>
+                    <p>La Zumba ofrece una experiencia de ejercicio divertida y enérgica. Combina música y movimientos inspirados en bailes latinos para mejorar la condición física cardiovascular, la coordinación, el equilibrio y la quema de calorías. Es una forma de ejercicio socialmente activa y motivadora.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+   </section>
+
+   <!--galeria-->
+   <section id="galeria" class="galeria">
+    <div class="contenedor-seccion">
+        <div class="contenedor-titulo">
+            <div class="numero">
+                03
+            </div>
+            <div class="info">
+                <span class="frase">LA MEJOR EXPERIENNCIA</span>
+                <h2>GALERIA</h2>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <img src="box10.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="box6.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="box8.jpg" alt="">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <img src="box5.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="box4.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="box7.jpg" alt="">
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!--contacto-->
+   <section id="contacto" class="contacto">
+    <div class="contenedor-seccion">
+        <div class="contenedor-titulo">
+            <div class="numero">
+                04
+            </div>
+            <div class="info">
+                <span class="frase">LA MEJOR EXPERIENNCIA</span>
+                <h2>CONTACTO</h2>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <input type="text" placeholder="Ingrese Email">
+            </div>
+            <div class="col">
+                <input type="text" placeholder="Ingrese Nombre">
+            </div>
+        </div>
+        <div class="mensaje">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button>Enviar Mensaje</button>
+        </div>
+        <div class="fila-datos">
+            <div class="col">
+                <i class="fa-solid fa-location-dot"></i> AV 25 de Mayo 1997
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-phone"></i> 11-5048-6123
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-clock"></i> Lunes, Sabado: 8:00h - 22:00h
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <footer>
+    <div class="info">
+    <p>2023 - <span class="txtRojo">ARES </span>-Todos los derechos reservados (josue gonzalez)</p>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    </div>
+   </footer>
+ <script src="index.js"></script>
+</body>
+</html>
